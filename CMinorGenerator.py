@@ -40,6 +40,7 @@ def private_key_to_wifc(private_key):
 
 coinData=\
     [
+        ["CyberDollar","22","9E"],#in decimal:34,158
         ["Mateable","33","AA"],#in decimal:51,170
         ["Sexcoin","3E","BE"],#in decimal:62,190
         ["Quebecoin","3A","BA"],#in decimal:58,186
