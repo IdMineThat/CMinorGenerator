@@ -40,6 +40,9 @@ def private_key_to_wifc(private_key):
 
 coinData=\
     [
+        ["Bells","19","99"],#in decimal:25,153
+        ["Bunker","19","9E"],#in decimal:25,158
+        ["Trinity","1E","B1"],#in decimal:30,177
         ["CyberDollar","22","9E"],#in decimal:34,158
         ["Mateable","33","AA"],#in decimal:51,170
         ["Sexcoin","3E","BE"],#in decimal:62,190
@@ -49,16 +52,16 @@ coinData=\
         ["Earthcoin","5D","DD"],#in decimal:93,221
         ["Dogecoin","1E","9E"],#in decimal:30,158
         ["Dingocoin","1E","9E"],#in decimal:30,158
-        ["Bitmark","55","D5"],#in decimal:85,213
+        #["Bitmark","55","D5"],#in decimal:85,213
         ["Advanced Internet Blockchains","17","97"],#in decimal:23,151
         ["Argentum","17","97"],#in decimal:23,151
-        ["BitcoinMoney","33","B2"],#in decimal:51,178
+        #["BitcoinMoney","33","B2"],#in decimal:51,178
         ["Cyberyen","1C","9C"],#in decimal:28,156
         ["Digibyte","1E","80"],#in decimal:30,128
-        ["Einsteinium","21","B0"],#in decimal:33,176
-        ["GlobalToken","26","A6"],#in decimal:38,166
-        ["LiteCoin","30","B0"],#in decimal:48,176
-        ["MarsCoin","32","B2"],#in decimal:50,178
+        ##["Einsteinium","21","B0"],#in decimal:33,176
+        ##["GlobalToken","26","A6"],#in decimal:38,166
+        ##["LiteCoin","30","B0"],#in decimal:48,176
+        ##["MarsCoin","32","B2"],#in decimal:50,178
         ["NengCoin","35","B0"]#in decimal:53,176
     ]
 
