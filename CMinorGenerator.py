@@ -100,3 +100,17 @@ for x in range(len(coinData)):
 if oneKey == "y":
     print("")
     print("Private Key (hex):", private_key.to_string().hex())
+
+### Notes for future mod. Would like to generate the UN and PW fields for the site
+###20944 AIBC (AIBlockChain)
+###27997 CASH (CyberDollar)
+###21214 CY (CyberYen)
+###20200 DGB (Digibyte)
+###21099 IFC (InfiniteCoin)
+###27988 LKY (LuckyCoin) 2F,AF 47,175
+###20695 MTBC (MateableCoin)
+###20222 NENG (NengCoin)
+###-a Algorithm: scrypt
+###-o Stratum: stratum+tcp://eu-merged-stratum.cminors-pool.com:20222
+###-u Username: ZZZ
+###-p Password: c=NENG,ps=aux,p_AUS=aaa,p_BEL=bbb,p_CDN=ccc,p_DINGO=ddd,p_DOGE=eee,p_DOGM=fff,p_EAC=ggg,p_NYC=hhh,p_PEPE=iii,p_WDC=jjj
