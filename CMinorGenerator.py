@@ -40,21 +40,29 @@ def private_key_to_wifc(private_key):
 
 coinData=\
     [
+        ["AiBlockChain","17","B0"],#in decimal:23,76
+        ["AustraliaCash","17","17"],#in decimal:23,23
+        ["CanadaEcoin","1C","9C"],#in decimal:28,156
+        ["DogmCoin","1E","9E"],#in decimal:30,158
+        ["InfiniteCoin","6F","EF"],#in decimal:111,239
+        ["NewYorkCoin","3C","BC"],#in decimal:60,188
+        ["PepeCoin","38","9E"],#in decimal:56,158
+        ["WorldCoin","49","C9"],#in decimal:73,201
         ["Bells","19","99"],#in decimal:25,153
-        ["Bunker","19","9E"],#in decimal:25,158
-        ["Trinity","1E","B1"],#in decimal:30,177
+        #["Bunker","19","9E"],#in decimal:25,158
+        #["Trinity","1E","B1"],#in decimal:30,177
         ["CyberDollar","22","9E"],#in decimal:34,158
         ["Mateable","33","AA"],#in decimal:51,170
-        ["Sexcoin","3E","BE"],#in decimal:62,190
-        ["Quebecoin","3A","BA"],#in decimal:58,186
-        ["Myriadcoin","32","B2"],#in decimal:50,178
-        ["Katkoyn","2D","AD"],#in decimal:45,173
+        #["Sexcoin","3E","BE"],#in decimal:62,190
+        #["Quebecoin","3A","BA"],#in decimal:58,186
+        #["Myriadcoin","32","B2"],#in decimal:50,178
+        #["Katkoyn","2D","AD"],#in decimal:45,173
         ["Earthcoin","5D","DD"],#in decimal:93,221
         ["Dogecoin","1E","9E"],#in decimal:30,158
         ["Dingocoin","1E","9E"],#in decimal:30,158
         #["Bitmark","55","D5"],#in decimal:85,213
-        ["Advanced Internet Blockchains","17","97"],#in decimal:23,151
-        ["Argentum","17","97"],#in decimal:23,151
+        #["Advanced Internet Blockchains","17","97"],#in decimal:23,151
+        #["Argentum","17","97"],#in decimal:23,151
         #["BitcoinMoney","33","B2"],#in decimal:51,178
         ["Cyberyen","1C","9C"],#in decimal:28,156
         ["Digibyte","1E","80"],#in decimal:30,128
