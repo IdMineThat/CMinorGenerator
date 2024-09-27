@@ -49,6 +49,7 @@ coinData=\
         ["PepeCoin","38","9E"],#in decimal:56,158
         ["WorldCoin","49","C9"],#in decimal:73,201
         ["Bells","19","99"],#in decimal:25,153
+        ["LuckyCoin","2F","AF"],#in decimal:47,175 Not 100% on this. It has not been tested. Use at your own risk.
         #["Bunker","19","9E"],#in decimal:25,158
         #["Trinity","1E","B1"],#in decimal:30,177
         ["CyberDollar","22","9E"],#in decimal:34,158
