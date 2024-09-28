@@ -140,6 +140,7 @@ if oneKey == "y":
     print("Private Key (hex):", private_key.to_string().hex())
 
 thePassword = thePasswordP1 + thePasswordP2
+print("")
 print("-o Stratum: stratum+tcp://eu-merged-stratum.cminors-pool.com:", thePort)
 print("-u Username:", theUsername)
 print("-p Password:", thePassword)
