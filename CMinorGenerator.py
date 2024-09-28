@@ -32,7 +32,8 @@ def print_choices_and_select(coinData):
     original_indices = []
 
     # Print the numbered list of choices
-    print("Available choices:")
+    print("")
+    print("Available choices for Primary Coin:")
     for idx, row in enumerate(coinData):
         if row[4] != 0:
             valid_choices.append(row)
@@ -125,7 +126,7 @@ for x in range(len(coinData)):
         thePasswordP1 = "c=" + coinData[x][3] + ",ps=aux"
         thePort = coinData[x][4]
     if coinData[x][4] == 0:
-        thePasswordP2 = ",p_" + coinData[x][3] + "coin_address"
+        thePasswordP2 = thePasswordP2 + ",p_" + coinData[x][3] + "=" + coin_address
     f = open("newadds.csv", "a")
     f.write(coin_address + ',' + wifc_key + ',' + private_key.to_string().hex() + '\n')
     f.close()
@@ -139,20 +140,6 @@ if oneKey == "y":
     print("Private Key (hex):", private_key.to_string().hex())
 
 thePassword = thePasswordP1 + thePasswordP2
-print("o- Stratum: stratum+tcp://eu-merged-stratum.cminors-pool.com:", thePort)
+print("-o Stratum: stratum+tcp://eu-merged-stratum.cminors-pool.com:", thePort)
 print("-u Username:", theUsername)
 print("-p Password:", thePassword)
-
-### Notes for future mod. Would like to generate the UN and PW fields for the site
-###20944 AIBC (AIBlockChain)
-###27997 CASH (CyberDollar)
-###21214 CY (CyberYen)
-###20200 DGB (Digibyte)
-###21099 IFC (InfiniteCoin)
-###27988 LKY (LuckyCoin) 2F,AF 47,175
-###20695 MTBC (MateableCoin)
-###20222 NENG (NengCoin)
-###-a Algorithm: scrypt
-###-o Stratum: stratum+tcp://eu-merged-stratum.cminors-pool.com:20222
-###-u Username: ZZZ
-###-p Password: c=NENG,ps=aux,p_AUS=aaa,p_BEL=bbb,p_CDN=ccc,p_DINGO=ddd,p_DOGE=eee,p_DOGM=fff,p_EAC=ggg,p_NYC=hhh,p_PEPE=iii,p_WDC=jjj
