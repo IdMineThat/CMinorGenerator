@@ -78,6 +78,7 @@ coinData=\
         ["WorldCoin","49","C9","WDC",0],#in decimal:73,201
         ["Bells","19","99","BEL",0],#in decimal:25,153
         ["LuckyCoin","2F","AF","LKY",27988],#in decimal:47,175 Not 100% on this. It has not been tested. Use at your own risk.
+        ["Moirai","33","EF","MOI",20904],#in decimal:51,239 
         #["Bunker","19","9E","BKC",0],#in decimal:25,158
         #["Trinity","1E","B1","TTY",0],#in decimal:30,177
         ["CyberDollar","22","9E","CASH",27997],#in decimal:34,158
@@ -128,7 +129,7 @@ for x in range(len(coinData)):
     if coinData[x][4] == 0:
         thePasswordP2 = thePasswordP2 + ",p_" + coinData[x][3] + "=" + coin_address
     f = open("newadds.csv", "a")
-    f.write(coin_address + ',' + wifc_key + ',' + private_key.to_string().hex() + '\n')
+    f.write(coinData[x][0] + ',' + coin_address + ',' + wifc_key + ',' + private_key.to_string().hex() + '\n')
     f.close()
     if oneKey == "n":
         print("Private Key (hex):", private_key.to_string().hex())
